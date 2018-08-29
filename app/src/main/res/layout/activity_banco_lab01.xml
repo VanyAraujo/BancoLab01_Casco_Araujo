@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="ar.edu.utn.frsf.isi.dam.bancolab01.BancoLab01">-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico" />
+
+
+    <EditText
+        android:id="@+id/edMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/tvCuit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUIT/CUIL" />
+
+    <EditText
+        android:id="@+id/edtCuit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Number"
+        />
+
+    <TextView
+        android:id="@+id/tvMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moneda" />
+
+    <RadioGroup
+        android:id="@+id/optMoneda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/optDolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:text="@string/lblMonedaDolar" />
+
+        <RadioButton
+            android:id="@+id/optPesos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:text="@string/lblMonedaPesos" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblMontoInvertir" />
+
+    <EditText
+        android:id="@+id/edtMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="nu"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/tvDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDias" />
+
+    <SeekBar
+        android:id="@+id/seekDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SeekBar" />
+
+    <TextView
+        android:id="@+id/tvDiasSeleccionados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblDiasSeleccionado" />
+
+    <TextView
+        android:id="@+id/tvIntereses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblIntereses" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAvisarVencimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblAvisarVencimiento" />
+
+        <Switch
+            android:id="@+id/swAvisarVencimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/togAccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblAcreditarEnCuenta"
+        android:textOff="@string/lblAccionVencimientoAcreditar"
+        android:textOn="@string/lblAccionVencimientoRenovar" />
+
+    <CheckBox
+        android:id="@+id/chkAceptoTerminos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblAceptarTerminosyCondiciones" />
+
+    <Button
+        android:id="@+id/btnPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblHacerPlazoFijo" />
+
+    <TextView
+        android:id="@+id/edtMensajes"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:text="@string/lblMensaje" />
+
+
+</LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:id="@+id/textView" />-->
+
+<!--</android.support.constraintConstraintLayout>-->

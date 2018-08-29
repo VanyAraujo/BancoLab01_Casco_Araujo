@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BancoLab01</string>
+    <string name="lblMail">Correo Electronico</string>
+    <string name="lblCuit">CUIT</string>
+    <string name="lblMontoInvertir">Monto a Invertir</string>
+    <string name="lblDiasSeleccionado">Dias Seleccionados</string>
+    <string name="lblCantDias">Cantidad de dias</string>
+    <string name="lblRendimiento">Rendimiento</string>
+    <string name="lblAcreditarEnCuenta">Acreditar en cuenta</string>
+    <string name="lblHacerPlazoFijo">Hacer PLazo Fijo</string>
+    <string name="lblAceptarTerminosyCondiciones">Aceptar Terminos y Condiciones</string>
+    <string name="lblMonedaDolar">Moneda Dolar</string>
+    <string name="lblMonedaPesos">Moneda Pesos</string>
+    <string name="lblMonto">Monto</string>
+    <string name="lblDias">Dias</string>
+    <string name="lblAvisarVencimiento">Avisar Vencimiento</string>
+    <string name="lblIntereses">Intereses</string>
+    <string name="lblMensaje">Mensaje</string>
+    <string name="lblAccionVencimientoRenovar">Renovar al vencimiento</string>
+    <string name="lblAccionVencimientoAcreditar">Acreditar al vencimiento</string>
+
+
+
+</resources>
